@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iron Lady AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2> Iron Lady AI Program Guide</h2>
+
+    <div class="buttons">
+        <button onclick="quickReply('student')">Student</button>
+        <button onclick="quickReply('working professional')">Working Professional</button>
+        <button onclick="quickReply('ai program')">AI Program</button>
+        <button onclick="quickReply('internship')">Internship</button>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <input type="text" id="user-input" placeholder="Ask about Iron Lady programs..." />
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
